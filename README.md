@@ -1,24 +1,14 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Grocery Managment Rails Application
+  * A gorcery management application
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Steps to run
+	``` 
+	  $ git clone https://github.com/BrandonGreen19/GroceryMan.git
+	  $ cd GroceryMan
+	  $ bundle install 
+	  $ rake db:create
+	  $ rake db:migrate
+	  $ rails s 
+	```
